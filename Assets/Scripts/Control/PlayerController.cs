@@ -56,7 +56,7 @@ namespace RPG.Control
             {
                 if (Input.GetButton("Fire1"))
                 {
-                    mover.StartMoveAction(hit.point);
+                    mover.StartMoveAction(hit.point,1f);
                 }
                 return true;
             }
